@@ -61,6 +61,13 @@ I also learned the importance of keeping humans involved in the review process. 
 
 The prototype has been developed and tested as part of my training capstone. It remains an exploratory tool, with opportunities for further testing and improvement.
 
+**Project Presentation**
+
+I prepared a presentation for my Keyin College training capstone to explain the purpose, development process, testing, and lessons learned from the Beginner-Layer Checker AI Agent.
+
+[View Capstone Presentation](Beginner_Layer_Checker_AI_Agent_Final.pdf)
+
+
 ## Author
 
 **Fatema Tuj Johora**  
