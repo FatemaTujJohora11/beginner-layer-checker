@@ -5,73 +5,72 @@
 **Organization:** Economic Developers Association of Newfoundland and Labrador (EDANL)  
 **Training Provider:** Keyin College
 
-## About the Project
+### About the Project
 
-I developed Beginner-Layer Checker as part of my capstone project during the Practical AI training program delivered by Keyin College.
+Beginner-Layer Checker is an AI-assisted review agent I developed as part of my Practical AI training capstone delivered by Keyin College.
 
-The idea came from my interest in AI education and making technical learning materials easier for beginners to understand.
+The project grew from my interest in making AI and LLM learning materials easier for beginners to understand. I wanted to explore how AI could act as a second reviewer, helping content developers identify confusing explanations, technical inaccuracies, and missing information before sharing materials with learners.
 
-When developing AI and Large Language Model (LLM) training content, I noticed how important it is to explain technical concepts clearly and introduce them in the right order. This inspired me to explore how an AI agent could help review educational materials before they are shared with learners.
+The agent is designed to support human reviewers, not replace their judgment.
 
-Beginner-Layer Checker is designed to review beginner-level AI and LLM training materials and provide feedback on areas that may need improvement.
+### What the Agent Reviews
 
-## What the Agent Does
+The agent accepts PowerPoint presentations, PDF documents, and supplied text. It examines:
 
-The agent reviews educational materials and looks at several aspects of content quality:
-
-- Technical accuracy and clarity of explanations
+- Technical accuracy and clarity
 - Alignment with learning objectives
-- Logical organization and sequence of topics
-- Missing information or unnecessary repetition
+- Organization and sequence of topics
+- Missing information and unnecessary repetition
 - Consistency between text and visuals
-- Suitability of explanations for beginner learners
+- Suitability for beginner learners
 
-Rather than rewriting an entire course, the agent identifies areas that may need attention and suggests improvements for the content developer to consider.
+It provides structured findings and suggests possible corrections for the content developer to review.
 
-## How I Developed It
+### How I Built It
 
-I started by identifying the common challenges beginners face when learning AI and LLM concepts.
+I created the prototype using **ChatGPT Projects**, custom Project Instructions, and web search for reference checks.
 
-Based on these challenges, I defined the agent's purpose, review criteria, and instructions. I also established boundaries so that the agent would focus on reviewing educational materials rather than generating complete courses.
+I started by defining the agent's role, review criteria, and boundaries. I then tested its responses, identified issues, refined the instructions, and tested it again.
 
-I tested the agent using machine learning learning materials and reviewed its feedback to identify where the instructions needed improvement.
+The goal was to create a focused review assistant rather than a tool that rewrites or approves entire courses.
 
-Through this process, I refined the agent to provide more focused and practical recommendations.
+### Testing and Results
 
-## Tools and Skills
+I tested the agent using a fictional machine learning handout containing two intentionally misleading claims.
 
-This project gave me an opportunity to apply and strengthen my skills in:
+| Test | Result |
+|---|---|
+| Identification of misleading claims | 2 out of 2 identified |
+| Suggested corrections | Provided with supporting references |
+| Privacy-related instruction refinement | Updated after unexpected organization references |
+| Retesting | Fictional ML handout and incomplete presentation passed |
 
-- AI Agent Design
-- Prompt Engineering
-- AI-Assisted Content Evaluation
-- Educational Content Development
-- Technical Documentation
-- Responsible AI
+These were limited prototype tests, not a comprehensive measure of reliability. Human verification remains essential.
 
-## What I Learned
+### Skills Applied
 
-One of my main takeaways from this project was that building a useful AI agent requires more than writing a prompt.
+AI Agent Design · Prompt Engineering · AI Evaluation · Instructional Design · Technical Documentation · Responsible AI
 
-It involves defining a clear purpose, understanding the intended users, setting appropriate boundaries, and testing whether the agent provides relevant feedback.
+### What I Learned
 
-I also learned the importance of keeping humans involved in the review process. The agent can help identify possible issues, but the final decisions about educational content should remain with the instructor or content developer.
+This project taught me that building a useful AI agent involves more than writing a prompt. Defining the agent's scope, testing its outputs, identifying weaknesses, and refining its instructions were all important parts of the process.
 
-## Project Status
+It also reinforced the importance of human oversight when reviewing educational content.
 
-The prototype has been developed and tested as part of my training capstone. It remains an exploratory tool, with opportunities for further testing and improvement.
+### Project Presentation
 
-**Project Presentation**
+[View Beginner-Layer Checker Capstone Presentation](Beginner_Layer_Checker_AI_Agent_Final.pdf)
 
-I prepared a presentation for my Keyin College training capstone to explain the purpose, development process, testing, and lessons learned from the Beginner-Layer Checker AI Agent.
+### Project Status
 
-[View Capstone Presentation](Beginner_Layer_Checker_AI_Agent_Final.pdf)
+**Developed and tested as an individual training capstone.**
 
+The agent remains a private prototype. This repository shares its project documentation and presentation.
 
-## Author
+### Author
 
 **Fatema Tuj Johora**  
-Master of Applied Science in Computer Engineering  
+MASc in Computer Engineering  
 Memorial University of Newfoundland, Canada
 
 [LinkedIn](https://www.linkedin.com/in/fatema-tuj-johora/) | [GitHub](https://github.com/FatemaTujJohora11)
